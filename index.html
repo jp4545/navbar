@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script>document.getElementsByTagName("html")[0].className += " js";</script>
+  <link rel="stylesheet" href="assets/css/style.css">
+    <link href="css/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+	<link href="css/ct-navbar.css" rel="stylesheet" />  
+  
+    <!--     Font Awesome     -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
+    <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js"></script>
+    <link type="text/css" rel="stylesheet" href="magicscroll/magicscroll.css"/>
+    <script type="text/javascript" src="magicscroll/magicscroll.js"></script>
+    <style>
+        .fa-heart{
+            color: #F74933;
+        }   
+        .space-100{
+            height: 100px;
+            display: block;
+        }
+        pre.prettyprint{
+            background-color: #ffffff;
+            border: 1px solid #999;
+            margin-top: 20px;
+            padding: 20px;
+            text-align: left;
+        }
+        .atv, .str{
+            color: #05AE0E;
+        }
+        .tag, .pln, .kwd{
+             color: #3472F7;
+        }
+        .atn{
+          color: #2C93FF;
+        }
+        .pln{
+           color: #333;
+        }
+        .com{
+            color: #999;
+        } 
+        /* .navbar {
+    position: relative;
+} */
+    .brand {
+        position: absolute;
+        left: 50%;
+        margin-left: -50px !important;  /* 50% of your logo width */
+        display: block;
+    }
+    .footer
+    {
+       position:relative;
+       overflow:hidden;
+      left: 0;
+      bottom: 0 !important;
+      width: 100%;
+      height:auto;
+      background-color: black;
+      color: white;
+      text-align: center;
+    }
+    .footer-terms
+    {
+      height:20px;
+    }
+    .row
+    {
+      padding:8px;
+    }
+    hr { 
+            position: relative; 
+            top: 20px; 
+            border: none; 
+            height: 12px; 
+            background: black; 
+            margin-bottom: 50px; 
+        } 
+    .ovf
+    {
+        overflow:hidden;
+    }
+    </style>
+</head>
+
+<body>
+ <div id="navbar-full" >
+    <div id="navbar" >
+       <!--    
+        navbar-default can be changed with navbar-ct-blue navbar-ct-azzure navbar-ct-red navbar-ct-green navbar-ct-orange  
+        -->
+        <nav class="navbar navbar-ct-blue navbar-fixed-top navbar-transparent" style="background-color: grey;" role="navigation">
+          
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand brand navbar-brand-logo" href="http://www.creative-tim.com">
+                    <div class="logo" style="width:fit-content">
+                    <img src="icast.png" style="width:100px;">
+                    </div>
+                    <!-- <div class="brand"> Creative Tim </div> -->
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <div style="padding-right: 50px !important;"></div>    
+                <li>
+                  <a href="javascript:void(0);" data-toggle="search" class="hidden-xs">
+                      <i class="pe-7s-search"></i>
+                      <p>Search</p>
+                  </a>
+              </li>
+
+                    <li>
+                        <a href="#">
+                            <i class="pe-7s-world">
+
+                            </i>
+                            <p>My Books</p>
+                        </a>
+                    </li> 
+              </ul>
+              <ul class="nav navbar-nav navbar-right" style="padding-left: -30px;">
+               
+              <li>
+                <a href="#">
+                    <i class="pe-7s-user">
+                        
+                    </i>
+                    <p>Connect</p>
+                </a>
+            </li> 
+                    <li class="dropdown navbar-right">
+                          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="pe-7s-menu"></i>
+                                <p>Categories <b class="caret"></b></p>
+                            </a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                          </ul>
+                    </li>
+               </ul>
+               <form class="navbar-form  navbar-search-form" role="search">                  
+                 <div class="form-group">
+                      <input type="text" value="" class="form-control" placeholder="Search...">
+                 </div> 
+              </form>
+              
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+       <!-- <div class="blurred-container">
+            <div class="img-src" style="background-image: url('images/bg.jpg')"></div>
+        </div> -->
+    </div><!--  end navbar -->
+
+</div> <!-- end menu-dropdown -->
+
+
+<section class="cd-h-timeline js-cd-h-timeline margin-bottom-md"  >
+  <p class="text-center margin-top-md margin-bottom-xl">👈 <a class="text--inherit" href="https://codyhouse.co/gem/horizontal-timeline/">Article &amp; Download</a></p>
+
+  <div class="cd-h-timeline__container container" >
+    <div class="cd-h-timeline__dates">
+      <div class="cd-h-timeline__line">
+        <ol>
+          <li><a href="#0" data-date="16/01/2014" class="cd-h-timeline__date cd-h-timeline__date--selected">16 Jan</a></li>
+          <li><a href="#0" data-date="28/02/2014" class="cd-h-timeline__date">28 Feb</a></li>
+          <li><a href="#0" data-date="20/04/2014" class="cd-h-timeline__date">20 Mar</a></li>
+          <li><a href="#0" data-date="20/05/2014" class="cd-h-timeline__date">20 May</a></li>
+          <li><a href="#0" data-date="09/07/2014" class="cd-h-timeline__date">09 Jul</a></li>
+          <li><a href="#0" data-date="30/08/2014" class="cd-h-timeline__date">30 Aug</a></li>
+          <li><a href="#0" data-date="15/09/2014" class="cd-h-timeline__date">15 Sep</a></li>
+          <li><a href="#0" data-date="01/11/2014" class="cd-h-timeline__date">01 Nov</a></li>
+          <li><a href="#0" data-date="10/12/2014" class="cd-h-timeline__date">10 Dec</a></li>
+          <li><a href="#0" data-date="19/01/2015" class="cd-h-timeline__date">29 Jan</a></li>
+          <li><a href="#0" data-date="03/03/2015" class="cd-h-timeline__date">3 Mar</a></li>
+        </ol>
+
+        <span class="cd-h-timeline__filling-line" aria-hidden="true"></span>
+      </div> <!-- .cd-h-timeline__line -->
+    </div> <!-- .cd-h-timeline__dates -->
+      
+    <ul>
+      <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--prev cd-h-timeline__navigation--inactive">Prev</a></li>
+      <li><a href="#0" class="text-replace cd-h-timeline__navigation cd-h-timeline__navigation--next">Next</a></li>
+    </ul>
+  </div> <!-- .cd-h-timeline__container -->
+
+  <div class="cd-h-timeline__events">
+    <ol>
+      <li class="cd-h-timeline__event cd-h-timeline__event--selected text-component">
+        <div class="cd-h-timeline__event-content container ovf" >
+          <h2 class="cd-h-timeline__event-title">Horizontal Timeline</h2>
+          <em class="cd-h-timeline__event-date">January 16th, 2014</em>
+            <img src="icast.png" alt="">
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+          </p>
+        </div>
+      </li>
+
+      <li class="cd-h-timeline__event text-component">
+        <div class="cd-h-timeline__event-content container ovf">
+          <h2 class="cd-h-timeline__event-title">Event title here</h2>
+          <em class="cd-h-timeline__event-date">February 28th, 2014</em>
+          <img src="icast.png" alt="">
+
+          <p class="cd-h-timeline__event-description color-contrast-medium"> 
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus.
+          </p>
+        </div>
+      </li>
+    </ol>
+  </div> <!-- .cd-h-timeline__events -->
+</section>
+
+
+
+
+
+<div class="footer">
+  <div class="col-md-6 col-sm-4">
+    <div class="row">About us</div>
+    <div class="row">Contact us</div>
+    <div class="row">Q & A</div>
+    <div class="row">Disclaimer</div>
+    </div>
+  <div class="col-md-6 col-sm-4">
+  <div class="row">Privacy Terms</div>
+  <div class="row">Report Abusive Content</div>
+  <div class="row">Report A Bug</div>
+  </div>
+
+  <div class="row"><hr style="height:2px;border-width:0;color:gray;background-color:white">
+  </div>
+  <div class="col-md-6 col-sm-4">
+    <img src="images/applestore.png" alt="" style="height:70px; width:150px;">
+  </div>
+  <div class="col-md-6 col-sm-4">
+    <img src="images/playstore.png" alt="" style="height:70px; width:150px;">
+  </div>
+</div>
+
+
+</body>
+
+    <script src="js/jquery-1.10.2.js" type="text/javascript"></script>
+	<script src="js/bootstrap.js" type="text/javascript"></script>
+	
+  <script src="js/ct-navbar.js"></script>
+  
+  <!-- Horizontal scrolling -->
+  <script src="assets/js/util.js"></script> <!-- util functions included in the CodyHouse framework -->
+  <script src="assets/js/swipe-content.js"></script> <!-- A Vanilla JavaScript plugin to detect touch interactions -->
+  <script src="assets/js/main.js"></script>
+	
+
+</html>
